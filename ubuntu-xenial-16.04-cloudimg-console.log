@@ -1,0 +1,105 @@
+[           Stopping Serial Getty on ttyS0...
+         Stopping LSB: Record successful boot for GRUB...
+         Stopping Regular background program processing daemon...
+         Stopping LXD - container startup/shutdown...
+         Stopping Unattended Upgrades Shutdown...
+         Stopping System Logging Service...
+         Stopping LSB: automatic crash report generation...
+         Stopping Virtualbox guest utils...
+         Stopping Deferred execution scheduler...
+         Stopping FUSE filesystem for LXC...
+         Stopping Snappy daemon...
+         Stopping D-Bus System Message Bus...
+[  OK  ] Stopped PostgreSQL RDBMS.
+         Stopping PostgreSQL Cluster 9.5-main...
+         Stopping OpenBSD Secure Shell server...
+         Stopping LSB: MD monitoring daemon...
+         Stopping LSB: daemon to balance interrupts for SMP systems...
+[  OK  ] Stopped target System Time Synchronized.
+[  OK  ] Closed Load/Save RF Kill Switch Status /dev/rfkill Watch.
+         Stopping LSB: Set the CPU Frequency Scaling governor to "ondemand"...
+         Stopping Getty on tty1...
+[  OK  ] Unmounted /var/lib/lxcfs.
+[  OK  ] Stopped Regular background program processing daemon.
+[  OK  ] Stopped ACPI event daemon.
+[  OK  ] Stopped Accounts Service.
+[  OK  ] Stopped Deferred execution scheduler.
+[  OK  ] Stopped System Logging Service.
+[  OK  ] Stopped Snappy daemon.
+[  OK  ] Stopped Serial Getty on ttyS0.
+[  OK  ] Stopped Getty on tty1.
+[  OK  ] Stopped Authenticate and Authorize Users to Run Privileged Tasks.
+[  OK  ] Stopped OpenBSD Secure Shell server.
+[  OK  ] Stopped Daemon for generating UUIDs.
+[  OK  ] Stopped User Manager for UID 1000.
+[  OK  ] Stopped Session 42 of user vagrant.
+[  OK  ] Stopped Unattended Upgrades Shutdown.
+[  OK  ] Stopped D-Bus System Message Bus.
+[  OK  ] Stopped FUSE filesystem for LXC.
+[  OK  ] Stopped LXD - container startup/shutdown.
+[  OK  ] Stopped LSB: Record successful boot for GRUB.
+[  OK  ] Stopped LSB: Set the CPU Frequency Scaling governor to "ondemand".
+[  OK  ] Stopped LSB: MD monitoring daemon.
+[  OK  ] Stopped LSB: daemon to balance interrupts for SMP systems.
+[  OK  ] Stopped LSB: automatic crash report generation.
+[  OK  ] Removed slice User Slice of vagrant.
+         Stopping Login Service...
+[  OK  ] Removed slice system-getty.slice.
+[  OK  ] Removed slice system-serial\x2dgetty.slice.
+         Stopping Permit User Sessions...
+[  OK  ] Stopped /etc/rc.local Compatibility.
+[  OK  ] Stopped Virtualbox guest utils.
+[  OK  ] Stopped Login Service.
+[  OK  ] Stopped Permit User Sessions.
+[  OK  ] Stopped target User and Group Name Lookups.
+[  OK  ] Stopped target Remote File Systems.
+[  OK  ] Stopped target Remote File Systems (Pre).
+         Stopping Login to default iSCSI targets...
+[  OK  ] Stopped PostgreSQL Cluster 9.5-main.
+[  OK  ] Stopped target Basic System.
+[  OK  ] Stopped target Paths.
+[  OK  ] Stopped ACPI Events Check.
+[  OK  ] Stopped Forward Password Requests to Wall Directory Watch.
+[  OK  ] Stopped Dispatch Password Requests to Console Directory Watch.
+[  OK  ] Stopped target Sockets.
+[  OK  ] Closed LXD - unix socket.
+[  OK  ] Closed Syslog Socket.
+[  OK  ] Closed ACPID Listen Socket.
+[  OK  ] Closed UUID daemon activation socket.
+[  OK  ] Closed D-Bus System Message Bus Socket.
+[  OK  ] Closed Socket activation for snappy daemon.
+[  OK  ] Stopped target System Initialization.
+[  OK  ] Stopped Commit a transient machine-id on disk.
+[  OK  ] Stopped target Encrypted Volumes.
+[  OK  ] Stopped target Swap.
+         Stopping Update UTMP about System Boot/Shutdown...
+         Stopping Load/Save Random Seed...
+[  OK  ] Stopped target Slices.
+[  OK  ] Removed slice User and Session Slice.
+[  OK  ] Removed slice system-postgresql.slice.
+[  OK  ] Stopped Update UTMP about System Boot/Shutdown.
+[  OK  ] Stopped Load/Save Random Seed.
+[  OK  ] Stopped Create Volatile Files and Directories.
+[  OK  ] Stopped Login to default iSCSI targets.
+         Stopping iSCSI initiator daemon (iscsid)...
+[  OK  ] Stopped iSCSI initiator daemon (iscsid).
+[  OK  ] Stopped target Network is Online.
+[  OK  ] Stopped Initial cloud-init job (metadata service crawler).
+[  OK  ] Stopped target Network.
+         Stopping Raise network interfaces...
+[  OK  ] Stopped Raise network interfaces.
+[  OK  ] Stopped Apply Kernel Variables.
+[  OK  ] Stopped target Network (Pre).
+[  OK  ] Stopped Initial cloud-init job (pre-networking).
+[  OK  ] Stopped Load Kernel Modules.
+[  OK  ] Stopped target Local File Systems.
+         Unmounting /run/user/1000...
+         Unmounting /vagrant...
+[  OK  ] Unmounted /run/user/1000.
+[  OK  ] Unmounted /vagrant.
+[  OK  ] Reached target Unmount All Filesystems.
+[  OK  ] Stopped target Local File Systems (Pre).
+[  OK  ] Stopped Create Static Device Nodes in /dev.
+[  OK  ] Stopped Remount Root and Kernel File Systems.
+[  OK  ] Reached target Shutdown.
+[18096.046274] reboot: Power down
