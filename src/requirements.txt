@@ -6,8 +6,4 @@ idna==2.6
 pytz==2018.3
 requests==2.18.4
 urllib3==1.22
-
-
-
-// Django,djanorestframework,requests -- ye tino hi main hai, baki sub inke sath apne aap hi install hote hai
-
+whitenoise==3.3.1
