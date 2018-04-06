@@ -25,7 +25,9 @@ SECRET_KEY = '9^u)6lhn)7_i#s*&bsfbqtwd)6&pdqyd#wi3b3qzfsa8+4%6ay'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'api-kunwar.herokuapp.com'
+]
 
 
 # Application definition
