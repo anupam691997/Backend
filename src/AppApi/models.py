@@ -7,7 +7,7 @@ class ApiKey(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE, related_name='api_key')
 
     def __str__(self):
-        return self.apikey
+        return self.apikey + str(self.user)
 
 
 class AndroidApp(models.Model):
@@ -22,3 +22,14 @@ class AndroidApp(models.Model):
         return self.app_name
 
 
+class Banner(AndroidApp):
+    MAYBECHOICE = (
+        ('T', 'TOP'),
+        ('B', 'BOTTOM')
+    )
+
+    description = models.TextField()
+    ad_pos = models.CharField(max_length=1,choices=MAYBECHOICE)
+
+    def __str__(self):
+        return self.app_name + " " + self.description + " " + self.ad_pos

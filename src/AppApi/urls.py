@@ -7,7 +7,7 @@ app_name = 'AppApi'
 
 urlpatterns = [
     path('login',rfviews.obtain_auth_token),
-    path('test',views.test,name = 'test'),
+    path('key',views.test,name = 'test'),
     path('apikey', views.ApiKeyView.as_view(), name='apikey'),
     path('app', views.AndroidAppView.as_view(), name='app'),
 
