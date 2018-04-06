@@ -7,7 +7,7 @@ class ApiKey(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE, related_name='api_key')
 
     def __str__(self):
-        return self.apikey + str(self.user)
+        return str(self.user) + "   " + self.apikey
 
 
 class AndroidApp(models.Model):

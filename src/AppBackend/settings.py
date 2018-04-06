@@ -24,9 +24,7 @@ SECRET_KEY = '9^u)6lhn)7_i#s*&bsfbqtwd)6&pdqyd#wi3b3qzfsa8+4%6ay'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [
-    'api-kunwar.herokuapp.com'
-]
+ALLOWED_HOSTS = []
 
 # Application definition
 
@@ -78,8 +76,8 @@ WSGI_APPLICATION = 'AppBackend.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        # 'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-        'NAME': '/app/src/db.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        #'NAME': '/app/src/db.sqlite3',
     }
 }
 
