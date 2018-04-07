@@ -22,14 +22,20 @@ class AndroidApp(models.Model):
         return self.app_name
 
 
-class Banner(AndroidApp):
+class Banner(models.Model):
     MAYBECHOICE = (
         ('T', 'TOP'),
         ('B', 'BOTTOM')
     )
-
+    
     description = models.TextField()
     ad_pos = models.CharField(max_length=1,choices=MAYBECHOICE)
+    app_name = models.CharField(max_length=255)
+    app_package = models.CharField(max_length=255)
+    icon_url = models.URLField()
+    apikey = models.ForeignKey(ApiKey, on_delete=models.CASCADE, related_name='banner')
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
 
     def __str__(self):
         return self.app_name + " " + self.description + " " + self.ad_pos
