@@ -101,9 +101,9 @@ class BannerView(APIView):
                             status=status.HTTP_422_UNPROCESSABLE_ENTITY)
 
         try:
-            serializer1.save(apikey=apikey)
+            serializer1.save(apikey=obj)
         except:
-            return Response({'error': 'object could not be created'}, status=status.HTTP_422_UNPROCESSABLE_ENTITY)
+           return Response({'error': 'object could not be created'}, status=status.HTTP_422_UNPROCESSABLE_ENTITY)
 
         return Response(request.data, status=status.HTTP_201_CREATED)
 
