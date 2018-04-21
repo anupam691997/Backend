@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74503083-13c5-40c3-9259-2e7a498f1966" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/AppApi/admin.py" afterPath="$PROJECT_DIR$/src/AppApi/admin.py" />
-      <change beforePath="$PROJECT_DIR$/src/AppApi/models.py" afterPath="$PROJECT_DIR$/src/AppApi/models.py" />
-      <change beforePath="$PROJECT_DIR$/src/AppApi/serializers.py" afterPath="$PROJECT_DIR$/src/AppApi/serializers.py" />
-      <change beforePath="$PROJECT_DIR$/src/AppApi/urls.py" afterPath="$PROJECT_DIR$/src/AppApi/urls.py" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/AppApi/views.py" afterPath="$PROJECT_DIR$/src/AppApi/views.py" />
       <change beforePath="$PROJECT_DIR$/src/db.sqlite3" afterPath="$PROJECT_DIR$/src/db.sqlite3" />
     </list>
@@ -21,16 +18,15 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/AppApi/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="75" column="26" lean-forward="false" selection-start-line="75" selection-start-column="26" selection-end-line="75" selection-end-column="26" />
+            <state relative-caret-position="162">
+              <caret line="36" column="30" lean-forward="false" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
               <folding>
                 <element signature="e#447#597#0" expanded="false" />
                 <element signature="e#632#1172#0" expanded="false" />
-                <element signature="e#1211#2622#0" expanded="false" />
-                <element signature="e#2145#2622#0" expanded="false" />
-                <element signature="e#2657#4058#0" expanded="false" />
-                <element signature="e#4094#4670#0" expanded="false" />
-                <element signature="e#4127#4469#0" expanded="false" />
+                <element signature="e#1211#2496#0" expanded="false" />
+                <element signature="e#2019#2496#0" expanded="false" />
+                <element signature="e#2531#3808#0" expanded="false" />
+                <element signature="e#3844#4420#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -205,8 +201,8 @@
             <element signature="e#0#36#0" expanded="false" />
             <element signature="e#447#597#0" expanded="false" />
             <element signature="e#632#1172#0" expanded="false" />
-            <element signature="e#2657#4058#0" expanded="false" />
-            <element signature="e#3586#4058#0" expanded="false" />
+            <element signature="e#2531#3808#0" expanded="false" />
+            <element signature="e#3335#3808#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -347,16 +343,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AppApi/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="75" column="26" lean-forward="false" selection-start-line="75" selection-start-column="26" selection-end-line="75" selection-end-column="26" />
+        <state relative-caret-position="162">
+          <caret line="36" column="30" lean-forward="false" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
           <folding>
             <element signature="e#447#597#0" expanded="false" />
             <element signature="e#632#1172#0" expanded="false" />
-            <element signature="e#1211#2622#0" expanded="false" />
-            <element signature="e#2145#2622#0" expanded="false" />
-            <element signature="e#2657#4058#0" expanded="false" />
-            <element signature="e#4094#4670#0" expanded="false" />
-            <element signature="e#4127#4469#0" expanded="false" />
+            <element signature="e#1211#2496#0" expanded="false" />
+            <element signature="e#2019#2496#0" expanded="false" />
+            <element signature="e#2531#3808#0" expanded="false" />
+            <element signature="e#3844#4420#0" expanded="false" />
           </folding>
         </state>
       </provider>

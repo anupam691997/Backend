@@ -39,13 +39,11 @@ class AndroidAppView(APIView):
     def post(self, request):
 
         serializer1 = AndroidAppSerializer(data=request.data, many=False)
-        serializer2 = CountrySerializer(data=request.data, many=False)
 
         serializer1.is_valid(raise_exception=True)
-        serializer2.is_valid(raise_exception=True)
 
-        country_name = serializer2.validated_data['country_name']
-        country_code = serializer2.validated_data['country_code']
+        country_name = request.data.get('country_name', 'none')
+        country_code = request.data.get('country_code', 'none')
 
         try:
             obj = Country.objects.get(country_name=country_name, country_code=country_code)
@@ -78,16 +76,14 @@ class BannerView(APIView):
     def post(self, request):
 
         serializer1 = BannerSerializer(data=request.data, many=False)
-        serializer2 = CountrySerializer(data=request.data, many=False)
 
         serializer1.is_valid(raise_exception=True)
-        serializer2.is_valid(raise_exception=True)
 
-        country_name = serializer2.validated_data['country_name']
-        country_code = serializer2.validated_data['country_code']
+        country_name = request.data.get('country_name', 'none')
+        country_code = request.data.get('country_code', 'none')
 
         try:
-            obj = Country.objects.get(country_name=country_name,country_code=country_code)
+            obj = Country.objects.get(country_name=country_name, country_code=country_code)
         except:
             return Response({'error': 'no such country exists'}, status=status.HTTP_422_UNPROCESSABLE_ENTITY)
 
@@ -103,7 +99,7 @@ class BannerView(APIView):
         country_code = request.GET.get('country_code', 'no_key_passed')
 
         try:
-            obj = Country.objects.get(country_name=country_name,country_code=country_code)
+            obj = Country.objects.get(country_name=country_name, country_code=country_code)
         except:
             return Response({'error': 'no such country exists'})
 
