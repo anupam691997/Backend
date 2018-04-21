@@ -9,6 +9,7 @@ urlpatterns = [
     path('key', views.test, name='test'),
     path('apikey', views.ApiKeyView.as_view(), name='apikey'),
     path('app', views.AndroidAppView.as_view(), name='app'),
-    path('banner', views.BannerView.as_view(), name='banner')
+    path('banner', views.BannerView.as_view(), name='banner'),
+    path('country', views.CountryView.as_view(), name='country')
 
 ]
