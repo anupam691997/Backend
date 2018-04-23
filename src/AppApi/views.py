@@ -72,8 +72,11 @@ class AndroidAppView(APIView):
         try:
             obj = Country.objects.get(country_code=country_code)
         except:
-            return Response({'error': 'no such country exists'})
-
+            try:
+                obj = Country.objects.get(country_code__icontains='GLO')
+            except:
+                return Response({'error': 'no such country exists'})
+            
         apps = AndroidApp.objects.filter(country=obj)
         serializer = AndroidAppSerializer(apps, many=True)
         return Response(serializer.data)
@@ -117,7 +120,10 @@ class BannerView(APIView):
         try:
             obj = Country.objects.get(country_code=country_code)
         except:
-            return Response({'error': 'no such country exists'})
+            try:
+                obj = Country.objects.get(country_code__icontains='GLO')
+            except:
+                return Response({'error': 'no such country exists'})
 
         banner = Banner.objects.filter(country=obj)
         serializer = BannerSerializer(banner, many=True)
