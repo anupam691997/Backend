@@ -18,7 +18,7 @@ class AndroidAppSerializer(serializers.ModelSerializer):
         app.app_name = validated_data['app_name']
         app.app_package = validated_data['app_package']
         app.icon_url = validated_data['icon_url']
-        app.country = validated_data['country']
+       # app.country = validated_data['country']
 
         app.save()
         return app
@@ -34,7 +34,7 @@ class BannerSerializer(serializers.ModelSerializer):
         banner.app_name = validated_data['app_name']
         banner.app_package = validated_data['app_package']
         banner.icon_url = validated_data['icon_url']
-        banner.country = validated_data['country']
+        #banner.country = validated_data['country']
         banner.description = validated_data['description']
         banner.ad_pos = validated_data['ad_pos']
 

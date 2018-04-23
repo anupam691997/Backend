@@ -7,4 +7,4 @@ admin.site.register(AndroidApp)
 admin.site.register(Banner)
 admin.site.register(Country)
 
-# Register your models here.
+
